@@ -18,6 +18,8 @@ ul {
     padding-left: 0;
 }
 
+
+
 .container{
     width: 1360px;
     margin: 0 auto;
@@ -78,6 +80,7 @@ ul {
 .header_main_pos{
     display: flex;
 }
+
 
 .bc{
     padding-top: 50px;
@@ -156,3 +159,4 @@ ul {
     font-weight: 400;
     font-size: 18px;
 }
+
