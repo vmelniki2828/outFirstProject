@@ -24,7 +24,7 @@ ul {
 }
 
 .header {
-    background-image: url('/img/header_city.jpg');
+    background-image: url('../img/header_city.jpg');
     width: 1360px;
     height: 768px;
     box-sizing: border-box;
