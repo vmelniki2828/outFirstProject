@@ -17,3 +17,7 @@ ul {
     margin: 0;
     padding-left: 0;
 }
+
+.about{
+    background: var(--main-green);
+}
