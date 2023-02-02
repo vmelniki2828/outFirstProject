@@ -1,0 +1,19 @@
+:root{
+    --main-green:#28A745;
+    --main-blue:#0284D0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}

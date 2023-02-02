@@ -5,9 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./src/header.html" rel="import" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <include src="./src/header.html"></include>
+    <header></header>
+    <about></about>
+    <bc></bc>
+    <footer></footer>
 </body>
+
+<script>
+    fetch("./src/header.html")
+    .then(response => {
+      return response.text()
+    })
+    .then(data => {
+      document.querySelector("header").innerHTML = data;
+    });
+
+    fetch("./src/about.html")
+    .then(response => {
+      return response.text()
+    })
+    .then(data => {
+      document.querySelector("about").innerHTML = data;
+    });
+
+    fetch("./src/bc.html")
+    .then(response => {
+      return response.text()
+    })
+    .then(data => {
+      document.querySelector("bc").innerHTML = data;
+    });
+
+    fetch("./src/footer.html")
+    .then(response => {
+      return response.text()
+    })
+    .then(data => {
+      document.querySelector("footer").innerHTML = data;
+    });
+</script>
 </html>
