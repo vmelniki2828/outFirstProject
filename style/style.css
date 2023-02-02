@@ -18,6 +18,7 @@ ul {
     padding-left: 0;
 }
 
+
 .footer{
     padding-top: 49px;
 }
@@ -138,3 +139,147 @@ ul {
 
     height: 40px;
 }
+
+
+
+.container{
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('../img/header_city.jpg');
+    width: 1360px;
+    height: 768px;
+    box-sizing: border-box;
+    left: 0px;
+    top: 0px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.header_main{
+    padding: 20px 46px;
+}
+
+.header_svg{
+    width: 41px;
+    height: 34px;
+}
+
+.header_green_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #28A745;
+}
+
+.header_green_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #28A745;
+}
+
+.header_white_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.header_main_text_logo{
+    margin: 0;
+}
+
+.header_main_pos{
+    display: flex;
+}
+
+
+.bc{
+    padding-top: 50px;
+    /* width: 1400px;   */
+    justify-content: center;
+    
+}
+
+.bc-center{
+    text-align: center;
+}
+
+.font-400{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;   
+    
+    margin-bottom: 15px;
+}
+
+.font-300{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+
+    margin-bottom: 38px;
+}
+
+.bc-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 39px;
+}
+.bc-photo{
+    margin-right: 8px;
+    margin-bottom: 7px;
+}
+
+.bc-hero{
+    margin-top: 47px;
+
+    display: flex;
+}
+
+.bc-text-hero{
+    background-color: var(--main-blue);
+    width: 680px;
+    height: 517px;
+
+    color: #fff;
+}
+
+.bc-margin{
+    margin-top: 112px;
+    margin-left: 30px;
+}
+
+.bc-btn{
+    padding: 11px 30px;
+    margin-top: 17px;
+
+    outline: 1px solid #fff;
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: #fff;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
